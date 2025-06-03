@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('Morgan, I love you so much!').split('');
+        const titles = ('Flower for my boyfriend').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "sama sama teruss yaa? akuu sayang bangett sama kamuu bubbie. inii bungaa cantiii buatt sayangkuuu";
+            subtitle.innerText = "haii, pacarku. oh iya jangan lupa jaga kesehatan kamu ya. aku tau kamu mager tapi ga boleh males olahraga, terus minum air putih yg banyak, pokoknya kamu ga boleh sakitt nanti aku jadi main roblox sendirian 😼💗";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
